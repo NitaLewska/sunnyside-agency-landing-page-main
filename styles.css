@@ -179,8 +179,7 @@ header h1 + img {
 .services h3,
 .services p {
   position: relative;
-  top: -34%;
-  bottom: 30%;
+  bottom: 25%;
   z-index: -1;
 }
 
@@ -214,7 +213,6 @@ header h1 + img {
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 160px;
   margin-bottom: 160px;
   height: 457px;
   justify-items: center;
@@ -269,5 +267,43 @@ header h1 + img {
 
 footer {
   height: 350px;
-  background-color: var(--dark_mod_cyan);
+  background-color: #90d4c6;
+  color: var(--dark_mod_cyan);
+  padding-top: 72px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer > img {
+  width: 170px;
+  height: 33px;
+}
+
+footer div:nth-of-type(1) {
+  display: flex;
+  width: 297px;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.128571px;
+  color: #458d7e;
+  margin-top: 40px;
+}
+
+footer div:nth-of-type(1) a {
+  font-family: "Barlow";
+  font-style: normal;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.128571px;
+  color: #458d7e;
+}
+
+footer div:nth-of-type(2) {
+  display: flex;
+  width: 164px;
+  justify-content: space-between;
+  margin-top: 88px;
 }
